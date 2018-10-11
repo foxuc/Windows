@@ -24,4 +24,6 @@ ASP.NET (4.0.30319.0)安装完毕。
 
 # iis7
 .json   application/x-javascript
+
 .apk    application/vnd.android.package-archive 
+
