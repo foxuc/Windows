@@ -1,3 +1,7 @@
+# Win2k8_rsync_Client_Server安装包下载
+
+[Win2k8_rsync_Client_Server安装包下载](https://github.com/foxuc/Windows/releases/ "安装包下载")
+
 # Windows-iis安装后
 !!! win2k8 iis安装后，
 
