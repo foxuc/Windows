@@ -1,0 +1,10 @@
+client_password.ini
+
+==> 当前所有者是：Administrator (WIN-DUOFSRWYJ1Z\Administrator)
+    !!!不是：Administrators
+
+
+"C:\Program Files (x86)\cwRsync\bin\chmod.exe" -c 600 C:\rsync_bat\client_password.ini
+"C:\Program Files (x86)\cwRsync\bin\chown.exe" administrator c:\rsync_bat\client_password.ini
+
+chown.exe administrator c:\rsync_bat\client_password.ini
