@@ -21,3 +21,7 @@ Microsoft (R) ASP.NET RegIIS 版本 4.0.30319.0
 ASP.NET (4.0.30319.0)安装完毕。
 
 要重启下机器：
+
+# iis7
+.json   application/x-javascript
+.apk    application/vnd.android.package-archive 
