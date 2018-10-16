@@ -40,7 +40,7 @@ ASP.NET (4.0.30319.0)安装完毕。
 
 详细信息: 若要使他人能够在远程计算机上查看此特定错误消息的详细信息，请在位于当前 Web 应用程序根目录下的“web.config”配置文件中创建一个 <customErrors> 标记。然后应将此 <customErrors> 标记的“mode”特性设置为“Off”。
 
-
+<code>
 <!-- Web.Config 配置文件 -->
 
 <configuration>
@@ -59,3 +59,4 @@ ASP.NET (4.0.30319.0)安装完毕。
         <customErrors mode="RemoteOnly" defaultRedirect="mycustompage.htm"/>
     </system.web>
 </configuration>
+</code>
