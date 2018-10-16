@@ -49,8 +49,10 @@ ASP.NET (4.0.30319.0)安装完毕。
     </system.web>
 </configuration>
 ```
+
 注释: 通过修改应用程序的 <customErrors> 配置标记的“defaultRedirect”特性，使之指向自定义错误页的 URL，可以用自定义错误页替换所看到的当前错误页。
->>>
+
+```
 <!-- Web.Config 配置文件 -->
 
 <configuration>
@@ -58,4 +60,4 @@ ASP.NET (4.0.30319.0)安装完毕。
         <customErrors mode="RemoteOnly" defaultRedirect="mycustompage.htm"/>
     </system.web>
 </configuration>
->>>
+```
