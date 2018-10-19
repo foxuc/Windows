@@ -24,7 +24,7 @@
  </staticContent>
      
 ```
-__粗体2__但是如果要配置所有类型的支持的话就需要写很多<mimeMap>所有为了方便起见我们可以配置一个通用的MIME,
+__但是如果要配置所有类型的支持的话就需要写很多<mimeMap>所有为了方便起见我们可以配置一个通用的MIME__  
 ```
 <mimeMap fileExtension=".*" mimeType="application/octet-stream" />
 ```
