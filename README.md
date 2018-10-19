@@ -1,3 +1,22 @@
+
+# iis7 MIME类型,自动消失
+.json   application/x-javascript
+
+.apk    application/vnd.android.package-archive 
+```
+  <staticContent>
+            <mimeMap fileExtension=".mp4" mimeType="video/mp4" />
+            <mimeMap fileExtension=".m4v" mimeType="video/m4v" />
+ </staticContent>
+     
+```
+但是如果要配置所有类型的支持的话就需要写很多<mimeMap>, 
+所有为了方便起见我们可以配置一个通用的MIME,
+```
+<mimeMap fileExtension=".*" mimeType="application/octet-stream" />
+```
+ [比较全的列表MIME类](https://blog.csdn.net/xue251248603/article/details/52982263?utm_source=blogxgwz0)
+
 # Win2k8_rsync_Client_Server安装包下载
 
 [Win2k8_rsync_Client_Server安装包下载](https://github.com/foxuc/Windows/releases/ "安装包下载")
@@ -25,11 +44,6 @@ Microsoft (R) ASP.NET RegIIS 版本 4.0.30319.0
 ASP.NET (4.0.30319.0)安装完毕。
 
 要重启下机器：
-
-# iis7
-.json   application/x-javascript
-
-.apk    application/vnd.android.package-archive 
 
 [回到顶部](#readme)
 
