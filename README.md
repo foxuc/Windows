@@ -1,17 +1,30 @@
 
 # iis7 MIME类型,自动消失
+
+```
 .json   application/x-javascript
 
 .apk    application/vnd.android.package-archive 
-```
+
+.ini    application/octet-stream
+
+.MP4    application/octet-stream
+
+.swf	  application/x-shockwave-flash
+
+.ipa application/iphone-package-archive
+
+.deb application/x-debian-package-archive
+
+
+
   <staticContent>
             <mimeMap fileExtension=".mp4" mimeType="video/mp4" />
             <mimeMap fileExtension=".m4v" mimeType="video/m4v" />
  </staticContent>
      
 ```
-但是如果要配置所有类型的支持的话就需要写很多<mimeMap>, 
-所有为了方便起见我们可以配置一个通用的MIME,
+__粗体2__但是如果要配置所有类型的支持的话就需要写很多<mimeMap>所有为了方便起见我们可以配置一个通用的MIME,
 ```
 <mimeMap fileExtension=".*" mimeType="application/octet-stream" />
 ```
