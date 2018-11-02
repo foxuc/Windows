@@ -3,6 +3,7 @@
 #停止站点
 
 c:\windows\system32\inetsrv\AppCmd.exe stop site "wk.Fornt"
+
 启动站点：
 
 c:\windows\system32\inetsrv\AppCmd.exe start site "wk.Fornt"
