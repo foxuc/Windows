@@ -35,6 +35,30 @@ c:\windows\system32\inetsrv\AppCmd.exe recycle apppool "wk.Fornt"
 
 "wk.Fornt"就是IIS的应用程序池的名称 
 
+# IIS7 无法启动计算机上的服务W3SVC如何修复
+
+错误提示
+
+启动iis7管理服务器提示:无法启动计算机上的服务W3SVC
+
+启动Windows Process Activation Service服务,报错:6801 指定资源管理器中的事务支持未启动或已关闭 
+
+启动world wide web publishing service服务,报错:1068：依赖服务或组无法启动
+
+
+
+修复错误
+
+运行命令提示符 fsutil resource setautoreset true c:\     
+
+打开运行输入 services.msc     
+
+启动Windows Process Activation Service服务     
+
+再启动world wide web publishing service服务     
+
+再启动iis7就可以了
+
 
 # iis7 MIME类型,自动消失
 
