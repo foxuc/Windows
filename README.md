@@ -1,4 +1,29 @@
 
+# IIS站点启停: 在CMD下执行如下命令：
+#停止站点
+
+c:\windows\system32\inetsrv\AppCmd.exe stop site "wk.Fornt"
+启动站点：
+
+c:\windows\system32\inetsrv\AppCmd.exe start site "wk.Fornt"
+
+wk.Fornt就是IIS的网站名称 
+
+
+# IIS 应用程序池启停: 在CMD下执行如下命令：
+#单独启停应用程序池： 
+
+c:\windows\system32\inetsrv\AppCmd.exe stop apppool /apppool.name:"wk.Fornt"
+
+c:\windows\system32\inetsrv\AppCmd.exe start apppool /apppool.name:"wk.Fornt"
+
+#单独回收应用程序池： 
+
+c:\windows\system32\inetsrv\AppCmd.exe recycle apppool "wk.Fornt"
+
+"wk.Fornt"就是IIS的应用程序池的名称 
+
+
 # iis7 MIME类型,自动消失
 
 ```
