@@ -1,10 +1,21 @@
 
 # IIS站点启停: 在CMD下执行如下命令：
+
+#查看站点
+
+c:\windows\system32\inetsrv\AppCmd.exe list site
+
+
+#查看应用池
+
+c:\windows\system32\inetsrv\AppCmd.exe list apppool
+
+
 #停止站点
 
 c:\windows\system32\inetsrv\AppCmd.exe stop site "wk.Fornt"
 
-启动站点：
+#启动站点：
 
 c:\windows\system32\inetsrv\AppCmd.exe start site "wk.Fornt"
 
