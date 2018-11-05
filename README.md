@@ -1,3 +1,10 @@
+# Test_web_URl
+https://www.xxxx.cn/WS/MobileInterface.ashx?action=getgamelist
+
+https://www.xxxx.cn/Phone/XXXgame2.plist
+
+http://cdnvx.xxxx.cn/v3/XXGAME/Plaza_20181001.apk
+
 
 # IIS站点启停: 在CMD下执行如下命令：
 
