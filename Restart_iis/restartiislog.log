@@ -1,0 +1,15 @@
+#---------s---------------------#
+2018/11/05 周一  4:00:17.15
+World Wide Web Publishing Service 服务正在停止.
+World Wide Web Publishing Service 服务已成功停止。
+
+World Wide Web Publishing Service 服务正在启动 .
+World Wide Web Publishing Service 服务已经启动成功。
+
+2018/11/05 周一  4:00:21.77
+
+Windows Process Activation Service ( WAS )的状态: 正在运行
+Net.Pipe Listener Adapter ( NetPipeActivator )的状态: 正在运行
+Net.Tcp Listener Adapter ( NetTcpActivator )的状态: 正在运行
+World Wide Web Publishing Service ( W3SVC )的状态: 正在运行 
+#---------e---------------------#
